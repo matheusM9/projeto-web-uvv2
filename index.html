@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/stylecss"
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>site refugiadas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+<div class="header">
+  <img src="logoprojeto2.png" width="150" height="150" alt="lp">
+  <div type="text/javascript"></div>
+</head>
+<body onload="time()">
+<div id="txt"></div>
+</body>
+</div>
+
+<div class="topnav">
+  <a href="#projeto">Sobre</a>
+  <a href="#casas">Casas</a>
+  <a href="#contato">Contato</a>
+</div>
+  </head></div>
+ 
+ <! -- o google maps so esta escuro porque a funcao e paga e exige que cadastre um cartao de credito  -->   
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<script src="script.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPIV5RDsomGRsfrnkQUrQ7_c5szNqeViA&callback=myMap"></script>
+
+
+  <div class="row">
+    <p id="casas"></p>
+  <div class="column">
+    <div class="card">
+      <h3>Casa 1</h3>
+       <img src="Casa1.png" width="200" height="200">
+      <p>quarto para 1 pessoa</p>
+      <p>15m<sup>2</sup></p>
+      <button class="button block black margin-bottom">Escolha essa casa</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Casa 2</h3>
+      <img src="casa4.jpg" width="200" height="200">
+      <p>quarto para 2 pessoas</p>
+      <p>30m<sup>2</sup></p>
+      <button class="button block black margin-bottom">Escolha essa casa</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Casa 3</h3>
+      <img src="casa3.png" width="200" height="200">
+      <p>quarto para 3 pessoas</p>
+      <p>28m<sup>2</sup></p>
+      <button class="button block black margin-bottom">Escolha essa casa</button>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Casa 4</h3>
+      <img src="casa4.png" width="200" height="200">
+      <p>quarto para 4 pessoas</p>
+      <p>30m<sup>2</sup></p>
+      <button class="button block black margin-bottom">Escolha essa casa</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<div class="container">
+  <p id="projeto">
+  <h2>Sobre o projeto </h2>
+  <div class="card">
+    <div class="card-body">Projeto criado para abrigar em outros paises mulheres e crianças ucranianas que estejam em situação de risco na guerra em Russia e Ucrania.
+      <div><img src="stop.jpg" width="250" height="250"></div>
+     </div>
+  </div>
+</div>
+  <div class="w3-card-4">
+
+ <h3>Contato</h3>
+    <p id="contato"></p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">primeiro nome</label>
+    <input type="text" id="fname" name="firstname" placeholder="seu nome..">
+
+    <label for="lname">sobrenome</label>
+    <input type="text" id="lname" name="lastname" placeholder="seu sobrenome..">
+
+    <label for="country">País</label>
+    <select id="country" name="country">
+      <option value="australia">Ucrania</option>
+      <option value="canada">polonia</option>
+      <option value="usa">Russia</option>
+    </select>
+
+    <label for="subject">Descreva sua duvida</label>
+    <textarea id="subject" name="subject" placeholder="Escreva aqui.." style="height:200px"></textarea>
+
+    <input type="submit" value="enviar">
+  </form>
+</div>
+    <script src="script.js"></script>
+
+
