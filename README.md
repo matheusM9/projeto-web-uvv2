@@ -1,4 +1,4 @@
 # projeto-web-uvv2
 
  
-- projeto do curso de sisitemas de informção 
+- projeto do curso de sistemas de informção 
